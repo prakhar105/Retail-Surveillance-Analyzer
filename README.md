@@ -1,6 +1,9 @@
 # 🛒 Retail Surveillance Analyzer
-
+![](https://github.com/prakhar105/supermarket-item-monitor/blob/main/assests/logo.png)
 A computer vision-powered surveillance tool that uses a **Visual Language Model (VLM)** to detect suspicious behavior (e.g., shoplifting, weapon possession) from CCTV footage. Built with [LLaVA-NeXT](https://huggingface.co/llava-hf/llava-v1.6-mistral-7b-hf), EasyOCR, and Gradio.
+
+![](https://github.com/prakhar105/supermarket-item-monitor/blob/main/assests/Screenshot%202025-09-02%20112218.png)
+
 
 ---
 
@@ -12,6 +15,7 @@ A computer vision-powered surveillance tool that uses a **Visual Language Model 
 -  **Timestamp Detection** – Automatically extracts visual timestamps using OCR.
 -  **4-bit Quantized Inference** – Efficient GPU usage with [BitsAndBytes](https://github.com/TimDettmers/bitsandbytes) quantization.
 
+![](https://github.com/prakhar105/supermarket-item-monitor/blob/main/assests/flowchart.png)
 ---
 
 ## 🛠️ Installation
