@@ -1,0 +1,21 @@
+[project]
+name = "supermarket-item-monitor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.10.1",
+    "bitsandbytes>=0.47.0",
+    "clip>=0.2.0",
+    "easyocr>=1.7.2",
+    "gradio>=5.44.1",
+    "numpy>=2.3.2",
+    "opencv-contrib-python-headless==4.10.0.84",
+    "opencv-python>=4.11.0.86",
+    "protobuf>=6.32.0",
+    "sentencepiece>=0.2.1",
+    "torch>=2.8.0",
+    "torchvision>=0.23.0",
+    "transformers>=4.55.4",
+]
