@@ -97,7 +97,7 @@ def analyze_video_stream(video_path, question, fps=1):
 
 def handle_video_input(video_file, question):
     if video_file is None:
-        return "⚠️ Please upload or record a video."
+        return " Please upload or record a video."
     
     # Save the uploaded video to a temporary location
     temp_dir = tempfile.mkdtemp()
@@ -117,7 +117,7 @@ def handle_video_input(video_file, question):
 
 # Gradio UI
 with gr.Blocks(title="Retail CCTV Analyzer") as demo:
-    gr.Markdown("## 🛒 Retail Surveillance Analyzer")
+    gr.Markdown("## Retail Surveillance Analyzer")
     gr.Markdown("Upload a CCTV video or record using your webcam. The AI will analyze it for suspicious activity.")
 
     with gr.Row():
