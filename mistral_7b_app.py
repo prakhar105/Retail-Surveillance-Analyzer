@@ -92,7 +92,6 @@ def analyze_video_stream(video_path, question, fps=1):
 
         frame_id += 1
         cap.release()
-        response="Yes, at around 0:09 sec in the video, a woman dressed in black appears to be placing an item into her black handbag."
     return suspicious_times, response
 
 
